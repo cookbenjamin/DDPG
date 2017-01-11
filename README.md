@@ -4,7 +4,7 @@ DDPG: Deep Deterministic Policy Gradients
 A clean python implementation of an Agent for Reinforcement Learning with Continuous Control using Deep 
 Deterministic Policy Gradients.
 
-![](https://github.com/rmst/ddpg/raw/master/readme/ipend.gif?raw=true) ![](https://github.com/rmst/ddpg/raw/master/readme/reacher.gif?raw=true) ![](https://github.com/rmst/ddpg/raw/master/readme/pend.gif?raw=true)
+![](https://github.com/rmst/ddpg/raw/master/readme/ipend.gif?raw=true ) ![](https://github.com/rmst/ddpg/raw/master/readme/reacher.gif?raw=true) ![](https://github.com/rmst/ddpg/raw/master/readme/pend.gif?raw=true)
 [![DDPG on TORCS](http://img.youtube.com/vi/Tb5gASEJIRM/0.jpg)](http://www.youtube.com/watch?v=Tb5gASEJIRM "Video Title")
 
 # Overview:
@@ -26,7 +26,7 @@ Even better, the same code can be used to train a humanoid robot, a drone, or a 
 
 The actor network approximates the policy function:
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=A%28s%29%20%5Crightarrow%20a&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![equation](https://www.sciweavers.org/tex2img.php?eq=A%28s%29%20%5Crightarrow%20a&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 where s represents a state, and a represents an action.
 
@@ -34,7 +34,7 @@ where s represents a state, and a represents an action.
 
 The critic network approximates the value function:
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=C%28s%2C%20a%29%20%5Crightarrow%20q&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![equation](https://www.sciweavers.org/tex2img.php?eq=C%28s%2C%20a%29%20%5Crightarrow%20q&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 where s represents a state, a represents an action, and q represents the 
 value of the given state action pair.
@@ -49,6 +49,7 @@ Let me know of any other ideas you may have :)
 
 # Thanks to:
 
-This project is based on the paper [Continuous control with deep reinforcement learning](https://arxiv.org/pdf/1509.02971v5.pdf) by Lillicrap et al.
-And this python implementation, [DDPG](https://github.com/rmst/ddpg)
-Also see Ben Lau's Article on [Using Keras and Deep Deterministic Policy Gradient to play TORCS](https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html)
+This project is inspired by 
+* The paper [Continuous control with deep reinforcement learning](https://arxiv.org/pdf/1509.02971v5.pdf) by Lillicrap et al.
+* This python implementation, [DDPG](https://github.com/rmst/ddpg)
+* Also Ben Lau's Article on [Using Keras and Deep Deterministic Policy Gradient to play TORCS](https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html)
