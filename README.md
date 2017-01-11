@@ -26,7 +26,7 @@ Even better, the same code can be used to train a humanoid robot, a drone, or a 
 
 The actor network approximates the policy function:
 
-![equation](https://www.sciweavers.org/tex2img.php?eq=A%28s%29%20%5Crightarrow%20a&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+A(s) -> a
 
 where s represents a state, and a represents an action.
 
@@ -34,7 +34,7 @@ where s represents a state, and a represents an action.
 
 The critic network approximates the value function:
 
-![equation](https://www.sciweavers.org/tex2img.php?eq=C%28s%2C%20a%29%20%5Crightarrow%20q&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+C(s, a) -> q
 
 where s represents a state, a represents an action, and q represents the 
 value of the given state action pair.
